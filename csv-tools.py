@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 
 def main():
-    valinta = input('Valitse toiminto: \n 1) Listojen vertailu \n 2) Duplikaattien poisto listalta \n 3) Sulje ohjelma \n')
+    valinta = input('Valitse toiminto: \n 1) Listojen vertailu \n 2) Duplikaattien poisto listalta \n 3) Listojen yhdistäminen \n 4) Sulje ohjelma \n')
     if valinta == '1':
         compare()
     elif valinta == '2':
